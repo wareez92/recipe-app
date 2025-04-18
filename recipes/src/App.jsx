@@ -5,6 +5,7 @@ function App() {
   const data = [
     {
       name: "Baked Salmon",
+      imgUrl: "https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg",
       ingredients: [
         { name: "Salmon", amount: 1, measurement: "1 lb" },
         { name: "Pine Nuts", amount: 1, measurement: "cup" },
@@ -24,6 +25,7 @@ function App() {
     },
     {
       name: "Fish Tacos",
+      imgUrl: "https://hips.hearstapps.com/hmg-prod/images/del029924-shrimp-tacos-web-003-ab-hi-res-index-65faf0a2a295f.jpg",
       ingredients: [
         { name: "Whitefish", amount: 1, measurement: "1 lb" },
         { name: "Cheese", amount: 1, measurement: "cup" },

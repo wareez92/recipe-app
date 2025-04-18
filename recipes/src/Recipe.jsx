@@ -1,7 +1,8 @@
-function Recipe({ name, ingredients, steps }) {
+function Recipe({ imgUrl, name, ingredients, steps }) {
   return (
     <>
-      <section id={name.toLowerCase().replace(/ /g, "")}>
+      <section id={name.toLowerCase().replace(/ /g, "-")}>
+        <img src={imgUrl} alt={name} width="500"/>
         <h1>{name}</h1>
         <ul className="ingredients">
           {ingredients.map((ingredient, i) => (
