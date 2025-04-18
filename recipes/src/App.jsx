@@ -1,7 +1,8 @@
-import './App.css'
+import "./App.css";
+import Menu from "./Menu";
 
 function App() {
-   const data = [
+  const data = [
     {
       name: "Baked Salmon",
       ingredients: [
@@ -38,12 +39,11 @@ function App() {
     },
   ];
 
-
   return (
     <>
-
+      <Menu recipes={data} title="Delicious Recipes" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -8,7 +8,7 @@ function Menu({ title, recipes }) {
           <h1>{title}</h1>
         </header>
         <div className="recipes">
-          {recipes.map(() => (
+          {recipes.map((recipe, i) => (
             <Recipe key={i} {...recipe} />
           ))}
         </div>
